@@ -1,4 +1,4 @@
-#C++ Package Manager
+# C++ Package Manager
 
 This project allows package management in C++. This can be used in user-level packages and GitHub-level packages.
 
