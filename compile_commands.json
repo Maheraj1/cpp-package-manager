@@ -1,0 +1,21 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-c",
+      "-Iinclude",
+      "-std=c++20",
+      "-O3",
+      "-Iext/include",
+      "-Iext/include/CLIB",
+      "-Iext/include/ImLog",
+      "-Iext/include/FS",
+      "-o",
+      "main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/jigneshpatel/Dev/cpp/cpp-package-manager",
+    "file": "/Users/jigneshpatel/Dev/cpp/cpp-package-manager/src/main.cpp",
+    "output": "/Users/jigneshpatel/Dev/cpp/cpp-package-manager/main.o"
+  }
+]

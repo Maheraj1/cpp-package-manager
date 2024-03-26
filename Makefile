@@ -1,3 +1,5 @@
+include ext/ext.mk
+
 CXX = clang++
 MODE = -O3
 _OS = $(shell uname)
@@ -6,8 +8,8 @@ OBJ =
 
 SRC = $(wildcard src/**/*.cpp) $(wildcard src/*.cpp)
 
-INCLUDE = -Iinclude -Isrc
-CXXFLAGS = -std=c++20 $(MODE) 
+INCLUDE = -Iinclude -Iext/include
+CXXFLAGS = -std=c++20 $(MODE) $(EXT_CFLAGS)
 
 LDFLAGS = -Llib/ -lcpp-pkgm-ext
 
